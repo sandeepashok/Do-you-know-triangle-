@@ -10,7 +10,6 @@ document.addEventListener("change", function (){
      // console.log(angleB)
      // console.log(angleC)
 
-
      document.getElementById("calc-btn").addEventListener("click", function(){
      var sum = angleA+angleB+angleC;
      console.log(sum)  
