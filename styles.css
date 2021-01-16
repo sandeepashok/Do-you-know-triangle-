@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./image/131213-dark-blue-polygon-triangle-pattern-background.jpg);
+    width: auto;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    text-align: justify;
+}
+
+button {
+    font-family: 'Space Mono', monospace;
+    height: 1.7rem;
+    width: 6rem;
+    margin-left: 2rem;
+    border-radius: 0 10px 0 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:active {
+    color: whitesmoke;
+    background-color: black;
+}
+
+input {
+    margin-left: 2rem;
+    height: 1.5rem;
+    border-radius: 0 10px 0 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+input[type=number] {
+    width: 4rem;
+}
+
+input[type=text] {
+    width: 15rem;
+}
+
+.container {
+    margin: 0 15rem 0 15rem;
+}
+
+.nav-bar {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+.correct-answer {
+    font-size: 17px;
+    font-weight: 100;
+    margin: 2rem 1rem 2rem 1rem;
+    color: whitesmoke;
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: white;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: small;
+    font-family: 'Space Mono', monospace;
+}
+
+@media (max-width: 930px) {
+    .container {
+        margin: 0 3rem 0 3rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        margin: 0 3rem 0 3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        margin: 0 2rem 0 2rem;
+    }
+
+    button {
+        margin-left: 0;
+    }
+
+    input {
+        height: 1.5rem;
+        border-radius: 0 10px 0 10px;
+        border: none;
+        outline: none;
+        margin: 0;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 410px) {
+
+    .nav-bar {
+        font-size: 1.7rem;
+    }
+
+    button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 5rem;
+    }
+
+    input {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 1.5rem;
+    }
+
+    input[type=number] {
+        width: 13rem;
+    }
+
+    input[type=text] {
+        width: 13rem;
+    }
+}
+
+@media (max-width: 375px) {
+    button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 6.5rem;
+    }
+
+    input {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 3rem;
+    }
+}
+
+@media (max-width: 360px) {
+    button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 6.5rem;
+    }
+
+    input {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 3rem;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 5rem;
+    }
+
+    input {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 280px) {
+    button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 4rem;
+    }
+
+    input {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 0.3rem;
+    }
+}
